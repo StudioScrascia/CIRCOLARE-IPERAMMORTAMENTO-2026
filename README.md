@@ -31,36 +31,7 @@ La circolare copre integralmente la disciplina introdotta dall'**art. 1, co. 427
 
 ---
 
-## Deploy
 
-### Netlify Drop (consigliato — 30 secondi)
-1. Aprire [drop.netlify.com](https://drop.netlify.com)
-2. Trascinare `index.html` nel riquadro
-3. Copiare il link generato (es. `https://studio-scrascia.netlify.app`)
-4. Inviare il link ai clienti via email
-
-### GitHub Pages
-```bash
-git clone https://github.com/tuo-utente/studio-scrascia.git
-cd studio-scrascia
-# assicurarsi che il file si chiami index.html
-git add .
-git commit -m "Prima release — circolare iper-ammortamento 2026"
-git push origin main
-```
-Abilitare **GitHub Pages** da *Settings → Pages → Branch: main → / (root)*.
-Il sito sarà disponibile su `https://tuo-utente.github.io/studio-scrascia`.
-
----
-
-## Aggiornamenti
-
-Per aggiornare i contenuti (nuove circolari, modifiche normative):
-1. Modificare il file `index.html`
-2. Ricaricare su Netlify Drop — il link rimane invariato se si usa lo stesso sito
-3. Oppure fare `git push` se si usa GitHub Pages
-
----
 
 ## Riferimenti normativi
 
